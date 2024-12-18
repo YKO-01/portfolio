@@ -470,6 +470,10 @@ body{
     margin: 0;
 }
 
+.experiece .timeline-item:hover .content {
+    transform: translateX(5px);
+    transition: transform 0.3s ease;
+}
 @media screen and (max-width: 768px) {
     .experiece .timeline::before {
         left: 31px;
