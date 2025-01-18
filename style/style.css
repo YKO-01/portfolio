@@ -653,6 +653,11 @@ h1 {
     color: #ffffff;
 }
 
+.projects p span{
+  font-weight: bold;
+  font-size: 1.1em;
+
+}
 .project-list {
     display: grid;
     gap: 40px;
