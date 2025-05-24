@@ -239,6 +239,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    color: #888;
   }
   .wrapper {
     display: block;
