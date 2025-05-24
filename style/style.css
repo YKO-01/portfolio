@@ -71,7 +71,7 @@ body{
     background: #151618;
     position: absolute;
     bottom: 0;
-    right: -10%;
+    right: 0%;
     z-index: -10;
 }
 .main::after{
@@ -150,11 +150,6 @@ body{
 }
 @media (max-width: 900px){
     .main img{ width: 30em;}
-}
-@media (max-width: 600px){
-    .mian img{
-        width: 22em;
-    }
 }
 @media (max-width: 400px){
     body{ font-size: 10px;}
@@ -235,6 +230,23 @@ body{
     visibility: visible;
     pointer-events: auto;
 }
+
+@media (max-width: 600px){
+  .mian img{
+    width: 22em;
+  }
+  .box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .wrapper {
+    display: block;
+    grid-row: 1 / span 4;
+    margin-top: 0;
+  }
+}
+
 
 /* About Me sytle */
 .about-me {
