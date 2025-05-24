@@ -81,7 +81,7 @@ body{
     left: -10%;
     border-top: 1px solid #f9803a;
     border-right: 1px solid #4985c9;
-    z-index: -11;
+    z-index: -12;
 }
 .box h1{
     font-size: 4.5em;
@@ -239,12 +239,18 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    color: #;
+    text-align: center;
+    margin-top: -50px;
   }
   .wrapper {
     display: block;
     grid-row: 1 / span 4;
-    margin-top: 0;
+    margin-top: -50px;
+    /*position: absolute;*/
+  }
+  .main .box{
+    margin-top: -50px;
+    padding-top: -50px;
   }
 }
 
